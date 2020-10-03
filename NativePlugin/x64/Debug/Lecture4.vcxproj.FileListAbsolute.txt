@@ -1,0 +1,2 @@
+C:\dev\School\Engines\Lecture4-Plugin\Lecture4\x64\Debug\Lecture4.exe
+C:\dev\School\Engines\Lecture4-Plugin\Lecture4\x64\Debug\Lecture4.pdb

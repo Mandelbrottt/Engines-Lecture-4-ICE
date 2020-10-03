@@ -1,7 +1,7 @@
 #pragma once
 
 #include "PluginSettings.h"
-#include "Vector2D.h"
+#include "Vector.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -18,14 +18,15 @@ extern "C" {
 	);
 
 	extern PLUGIN_API
-	Vector2D
+	Vector3D
 	GetPosition();
 
 	extern PLUGIN_API
 	void
 	SetPosition(
 		float a_x,
-		float a_y
+		float a_y,
+		float a_z
 	);
 
 #ifdef __cplusplus

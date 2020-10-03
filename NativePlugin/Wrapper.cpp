@@ -18,7 +18,7 @@ SetID(
 }
 
 PLUGIN_API
-Vector2D
+Vector3D
 GetPosition() {
 	return g_gameObject.GetPosition();
 }
@@ -27,7 +27,8 @@ PLUGIN_API
 void
 SetPosition(
 	float a_x, 
-	float a_y
+	float a_y,
+	float a_z
 ) {
-	g_gameObject.SetPosition(a_x, a_y);
+	g_gameObject.SetPosition(a_x, a_y, a_z);
 }

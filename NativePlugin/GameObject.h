@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Vector2D.h"
+#include "Vector.h"
 #include "PluginSettings.h"
 
 class PLUGIN_API GameObject {
@@ -13,14 +13,14 @@ public:
 	void
 	SetID(int a_id);
 
-	Vector2D
+	Vector3D
 	GetPosition() const;
 
 	void
-	SetPosition(float a_x, float a_y);
+	SetPosition(float a_x, float a_y, float a_z);
 
 private:
 	int m_id;
 
-	Vector2D m_position;
+	Vector3D m_position;
 };

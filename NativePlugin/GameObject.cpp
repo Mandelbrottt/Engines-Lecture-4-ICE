@@ -2,7 +2,7 @@
 
 GameObject::GameObject() {
 	SetID(0);
-	SetPosition(0.0f, 0.0f);
+	SetPosition(0.0f, 0.0f, 0.0f);
 }
 
 int
@@ -15,12 +15,12 @@ GameObject::SetID(int a_id) {
 	m_id = a_id;
 }
 
-Vector2D
+Vector3D
 GameObject::GetPosition() const {
 	return m_position;
 }
 
 void
-GameObject::SetPosition(float a_x, float a_y) {
-	m_position = { a_x, a_y };
+GameObject::SetPosition(float a_x, float a_y, float a_z) {
+	m_position = { a_x, a_y, a_z };
 }
